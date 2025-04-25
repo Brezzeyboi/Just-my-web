@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #212121;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.video {
+    width: calc(33% - 20px);
+    cursor: pointer;
+    text-align: center;
+}
+
+.video img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.video h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Video Player Page */
+.video-player {
+    text-align: center;
+    padding: 20px;
+}
+
+.video-player video {
+    width: 80%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+video + h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .video {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .video {
+        width: 100%;
+    }
+
+    .search-bar {
+        width: 200px;
+    }
+}
+
+.user-name {
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+    font-weight: bold;
+}
