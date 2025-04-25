@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: image-set(url('Images or songs/back.jpg') 1x, url('Images or songs/Back.jpg') 2x);
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-attachment: fixed; /* Makes the background non-scrollable */
+    background-position: center; /* Centers the background image */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Optional: Prevents the page itself from scrolling */
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 150px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.username {
+    text-align: center;
+    margin-top: 10px; /* Reduced margin */
+    margin-bottom: 5px; /* Added bottom margin for balance */
+    color: #333;
+    font-size: 2.5rem; /* Adjust font size slightly if needed */
+    font-weight: bold;
+    font-family: "Bangers", "cursive";
+}
+
+
+.bio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bio p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: #007BFF;
+}
+
+.volume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.volume-label {
+    color: #333;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+.volume-slider {
+    width: 200px;
+    height: 8px;
+    background: linear-gradient(to right, #ff6f61, #f7b42c);
+    border-radius: 50px;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    transition: all 0.3s ease;
+}
+
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #007BFF;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.volume-slider::-webkit-slider-thumb:hover {
+    background-color: #0056b3;
+}
+
+.volume-slider::-webkit-slider-runnable-track {
+    background: transparent;
+}
+
+.volume-slider:focus {
+    outline: none;
+}

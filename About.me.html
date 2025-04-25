@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles-About-me.css">
+    <link rel="icon" href="Images or songs/favicon.ico">
+    <title>About Me</title>
+</head>
+<body>
+    <!-- Audio with autoplay and muted initially -->
+    <audio id="audioPlayer" autoplay muted>
+        <source src="Images or songs/song.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="container">
+        <h1>About Me</h1>
+        
+        <!-- Profile Picture -->
+        <img src="Images or songs\ezgif-3eae2bebb1f033.webp" alt="Images or songs\ezgif-3eae2bebb1f033.webp" class="profile-pic">
+
+        <!-- Username -->
+        <h2 class="username">Rehan</h2>
+
+        <!-- Bio -->
+        <div class="bio">
+            <p>Hello! My name is Rehan. I am a Student with a passion for Computer Science. I love to Listen to music, code, and more!</p>
+        </div>
+        
+        <div class="social-links">
+            <a href="https://discord.com/users/828224764086452224" target="_blank">Discord</a>
+            <a href="https://www.instagram.com/is.it._.rehan/" target="_blank">Instagram</a>
+            <a href="https://github.com/Brezzeyboi" target="_blank">GitHub</a>
+        </div>
+
+        <!-- Volume Control -->
+        <div class="volume-container">
+            <span class="volume-label">Volume</span>
+            <input type="range" id="volumeSlider" class="volume-slider" min="0" max="1" step="0.01" value="0.5">
+        </div>
+    </div>
+
+    <!-- Link to External JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
