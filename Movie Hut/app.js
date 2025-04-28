@@ -1,7 +1,7 @@
 // Sample video data (could be replaced with a database or API)
 const videos = [
-    { id: 'video1', title: 'Movie Title 1', thumbnail: 'thumbnail1.jpg', videoSrc: 'video1.mp4' },
-    { id: 'video2', title: 'Movie Title 2', thumbnail: 'thumbnail2.jpg', videoSrc: 'video2.mp4' },
+    { id: 'video1', title: 'HARRY PUTTER MOIVE 19+ full desi hehehehhehehe prank hai anuti', thumbnail: 'horimiya 1.jpg', videoSrc: 'video1.mp4' },
+    { id: 'video2', title: 'Mera edit hai ranuak mat dekh dekha na hai toh dekh mero kya', thumbnail: 'thumbnail2.jpg', videoSrc: 'WhatsApp Video 2025-04-23 at 19.59.04_41a8947d.mp4' },
     { id: 'video3', title: 'Movie Title 3', thumbnail: 'thumbnail3.jpg', videoSrc: 'video3.mp4' },
 ];
 
