@@ -1,19 +1,31 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="Images or songs/favicon.ico">
-        <title>Contacts</title>
-    </head>
-    <body>
-        <a href="index.html" class="back-button-link">
-            <button class="back-button-inline">
-                <!-- Embed your SVG content directly -->
-                <img src="back.svg" alt="Back Button" class="svg-icon">
-            </button>
-        </a>       
-            
-        <img src="Images or songs/i.gif" style="position: static;">
-        
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Press Start 2P', cursive;
+      }
+    </style>
+  </head>
+  <body class="bg-black text-green-400 min-h-screen flex flex-col items-center p-6">
+
+    <!-- Back Button -->
+    <a href="index.html" class="mb-6 inline-block">
+      <button class="w-12 h-12 flex items-center justify-center border-2 border-green-400 rounded-lg hover:scale-110 transition bg-black">
+        <!-- Inline SVG -->
+        <svg fill="#22c55e" width="24px" height="24px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+          <path d="M222.927 580.115l301.354 328.512c24.354 28.708 20.825 71.724-7.883 96.078s-71.724 20.825-96.078-7.883L19.576 559.963a67.846 67.846 0 01-13.784-20.022 68.03 68.03 0 01-5.977-29.488l.001-.063a68.343 68.343 0 017.265-29.134 68.28 68.28 0 011.384-2.6 67.59 67.59 0 0110.102-13.687L429.966 21.113c25.592-27.611 68.721-29.247 96.331-3.656s29.247 68.721 3.656 96.331L224.088 443.784h730.46c37.647 0 68.166 30.519 68.166 68.166s-30.519 68.166-68.166 68.166H222.927z"/>
+        </svg>
+      </button>
+    </a>
+
+    <!-- Content -->
+    <img src="Images or songs/i.gif" alt="Funny gif" class="rounded-lg shadow-lg">
+    
+  </body>
 </html>
