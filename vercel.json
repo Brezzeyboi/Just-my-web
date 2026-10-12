@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://taken-dev.vercel.app",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "destination": "https://taken-dev.vercel.app",
       "permanent": true
